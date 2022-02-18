@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.010173">
+<testcase classname="Checking login Functionality of Orange HRM" name="Checking user login with valid credentials" time="0.010173">
+<skipped><![CDATA[Given user is on login page.................................................undefined
+When user is clicking on forgot password button.............................undefined
+Then user enters username in username textbox...............................undefined
+Then user enters password in password textbox...............................undefined
+When user clicks on login button............................................undefined
+Then user is on Homepage....................................................undefined
+Then user is logging out....................................................undefined
+Then Closing browser........................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="13" failed="0" ignored="0" total="13" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="2369" started-at="2022-02-18T15:06:38 IST" finished-at="2022-02-18T15:06:40 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases" duration-ms="2369" started-at="2022-02-18T15:06:38 IST" finished-at="2022-02-18T15:06:40 IST">
+      <class name="TestCases.HomePageTest">
+        <test-method status="SKIP" signature="validatePimtest()[pri:1, instance:TestCases.HomePageTest@32d2fa64]" name="validatePimtest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePimtest -->
+        <test-method status="SKIP" signature="validateLeaveTest()[pri:2, instance:TestCases.HomePageTest@32d2fa64]" name="validateLeaveTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeaveTest -->
+        <test-method status="SKIP" signature="validateAdminModuletest()[pri:0, instance:TestCases.HomePageTest@32d2fa64]" name="validateAdminModuletest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminModuletest -->
+        <test-method status="SKIP" signature="validateBuzzTest()[pri:10, instance:TestCases.HomePageTest@32d2fa64]" name="validateBuzzTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBuzzTest -->
+        <test-method status="SKIP" signature="validateLogoutTest()[pri:11, instance:TestCases.HomePageTest@32d2fa64]" name="validateLogoutTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutTest -->
+        <test-method status="SKIP" signature="validateDirectoryTest()[pri:8, instance:TestCases.HomePageTest@32d2fa64]" name="validateDirectoryTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDirectoryTest -->
+        <test-method status="SKIP" signature="validateTimeTest()[pri:3, instance:TestCases.HomePageTest@32d2fa64]" name="validateTimeTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeTest -->
+        <test-method status="SKIP" signature="validatePerformanceTest()[pri:6, instance:TestCases.HomePageTest@32d2fa64]" name="validatePerformanceTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePerformanceTest -->
+        <test-method status="SKIP" signature="validateRecruitmentTest()[pri:4, instance:TestCases.HomePageTest@32d2fa64]" name="validateRecruitmentTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitmentTest -->
+        <test-method status="SKIP" signature="validateMyinfoTest()[pri:5, instance:TestCases.HomePageTest@32d2fa64]" name="validateMyinfoTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMyinfoTest -->
+        <test-method status="SKIP" signature="validateDashboardTest()[pri:7, instance:TestCases.HomePageTest@32d2fa64]" name="validateDashboardTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashboardTest -->
+        <test-method status="SKIP" signature="validateMaintenanceTest()[pri:9, instance:TestCases.HomePageTest@32d2fa64]" name="validateMaintenanceTest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMaintenanceTest -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginPageTest@3234e239]" name="setup" is-config="true" duration-ms="17046" started-at="2022-02-18T15:06:21 IST" finished-at="2022-02-18T15:06:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotPasswrdButton()[pri:0, instance:TestCases.LoginPageTest@3234e239]" name="forgotPasswrdButton" is-config="true" duration-ms="1261" started-at="2022-02-18T15:06:38 IST" finished-at="2022-02-18T15:06:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswrdButton -->
+        <test-method status="FAIL" signature="userLoginTest()[pri:0, instance:TestCases.LoginPageTest@3234e239]" name="userLoginTest" is-config="true" duration-ms="203" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method status="SKIP" signature="loginpageTitletest()[pri:0, instance:TestCases.LoginPageTest@3234e239]" name="loginpageTitletest" duration-ms="0" started-at="2022-02-18T15:06:40 IST" finished-at="2022-02-18T15:06:40 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:174)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:47)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:309)
+at Pages.LoginPage.userLogin(LoginPage.java:61)
+at TestCases.LoginPageTest.userLoginTest(LoginPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpageTitletest -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:TestCases.LoginPageTest@3234e239]" name="teardown" is-config="true" duration-ms="0" started-at="2022-02-18T15:06:41 IST" finished-at="2022-02-18T15:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

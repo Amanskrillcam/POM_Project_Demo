@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases(failed)">
+    <classes>
+      <class name="TestCases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="loginpageTitletest"/>
+          <include name="setup"/>
+          <include name="userLoginTest"/>
+          <include name="forgotPasswrdButton"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTest -->
+      <class name="TestCases.HomePageTest">
+        <methods>
+          <include name="validateAdminModuletest"/>
+          <include name="validateTimeTest"/>
+          <include name="validateMaintenanceTest"/>
+          <include name="validateDirectoryTest"/>
+          <include name="validateRecruitmentTest"/>
+          <include name="validateBuzzTest"/>
+          <include name="validateLogoutTest"/>
+          <include name="validateMyinfoTest"/>
+          <include name="validatePerformanceTest"/>
+          <include name="validateLeaveTest"/>
+          <include name="validatePimtest"/>
+          <include name="validateDashboardTest"/>
+        </methods>
+      </class> <!-- TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
